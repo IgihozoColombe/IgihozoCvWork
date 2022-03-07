@@ -1,0 +1,704 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 50px 0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.cont{
+    border-radius: 20px;
+    border: 2px solid #80808093;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.circle {
+  width: 24%;
+  height: 100%;
+  padding: 0 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  background: #0f2d55;
+}
+
+.circle p {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.content {
+  width: 1000px;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+.content .profile {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content .profile .content {
+  width: 76%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.content .profile .content .title {
+  color: #0f2d55;
+}
+
+.content .profile .content .title h2 {
+  font-weight: 900;
+}
+
+.content .profile .content .title p {
+  font-weight: 800;
+  font-size: 1.2em;
+}
+
+.content .profile .content .contacts {
+  width: 70%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.content .profile .content .contacts .contact {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.content .profile .content .contacts .contact i {
+  font-size: 0.7em;
+  width: 25px;
+  height: 25px;
+  color: #ffffff;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background: #0f2d55;
+}
+
+.content .profile .content .contacts .contact a {
+  margin: 0 5px;
+}
+
+.content .profile .content .desc p span {
+  font-weight: 700;
+}
+
+.content .experience {
+  width: 100%;
+  height: 350px;
+}
+
+.content .experience .title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content .experience .title .vertLines {
+  width: 6%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.content .experience .title .vertLines i {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  font-size: 1em;
+  /* border-radius: 50%; */
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  background: #0f2d55;
+}
+
+.content .experience .title .vertLines .vertLine {
+  width: 2px;
+  height: 30%;
+  background: #0f2d55;
+}
+
+.content .experience .content {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.content .experience .title .content p {
+  margin: 9px 0;
+  font-weight: 800;
+  font-size: 1.1em;
+}
+
+.content .experience > ul {
+  width: 100%;
+  height: 300px;
+}
+
+.content .experience > ul > li {
+  width: 100%;
+  height: 150px;
+  display: flex;
+}
+
+.content .experience > ul > li .vertLines {
+  width: 6%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.content .experience > ul > li .vertLines .smallElem {
+  width: 2px;
+  height: 3%;
+  background: #0f2d55;
+}
+
+.content .experience > ul > li .vertLines .point {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #0f2d55;
+}
+
+.content .experience > ul > li .vertLines .vertLine {
+  width: 2px;
+  height: 95%;
+  background: #0f2d55;
+}
+
+.content .experience > ul > li .elements .sub-title {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.content .experience > ul > li .elements p {
+  font-style: italic;
+}
+
+.content .education {
+  width: 100%;
+  height: 150px;
+}
+
+.content .education .title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.content .education .title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content .education .title .vertLines {
+  width: 6%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.content .education .title .vertLines i {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  font-size: 1em;
+  border-radius: 50%;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  background: #0f2d55;
+}
+
+.content .education .title .vertLines .vertLine {
+  width: 2px;
+  height: 40%;
+  background: #0f2d55;
+}
+
+.content .education .content {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.content .education .title .content p {
+  margin: 4px 0;
+  font-weight: 800;
+  font-size: 1.1em;
+}
+
+.content .education > ul {
+  width: 100%;
+  height: 300px;
+}
+
+.content .education > ul > li {
+  width: 100%;
+  height: 150px;
+  display: flex;
+}
+
+.content .education > ul > li .vertLines {
+  width: 6%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.content .education > ul > li .vertLines .smallElem {
+  width: 2px;
+  height: 3%;
+  background: #0f2d55;
+}
+
+.content .education > ul > li .vertLines .point {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background:#0f2d55;
+}
+
+.content .education > ul > li .vertLines .vertLine {
+  width: 2px;
+  height: 95%;
+  background: #0f2d55;
+}
+
+.content .education > ul > li .elements .sub-title {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.content .education > ul > li .elements p {
+  font-style: italic;
+}
+
+.content .skills {
+  width: 100%;
+  height: 150px;
+}
+
+.content .skills .title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content .skills .title .vertLines {
+  width: 6%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.content .skills .title .vertLines i {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  font-size: 1em;
+  border-radius: 50%;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  background: #0f2d55;
+}
+
+.content .skills .title .vertLines .vertLine {
+  width: 2px;
+  height: 30%;
+  background: #0f2d55;
+}
+
+.content .skills .content {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.content .skills .title .content p {
+  margin: 9px 0;
+  font-weight: 800;
+  font-size: 1.1em;
+}
+
+.content .skills > ul {
+  width: 100%;
+  height: 300px;
+}
+
+.content .skills > ul > li {
+  width: 100%;
+  height: 25px;
+  display: flex;
+}
+
+.content .skills > ul > li .vertLines {
+  width: 6%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.content .skills > ul > li .vertLines .smallElem {
+  width: 2px;
+  height: 20%;
+  background: #0f2d55;
+}
+
+.content .skills > ul > li .vertLines .point {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #0f2d55;
+}
+
+.content .skills > ul > li .vertLines .vertLine {
+  width: 2px;
+  height: 50%;
+  background: #0f2d55;
+}
+
+.content .skills > ul > li p span {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.content .gap {
+  width: 100%;
+  height: 10px;
+  display: flex;
+}
+
+.content .gap .vertLines {
+  width: 6%;
+  height: 150%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .gap .vertLines .vertLine {
+  width: 2px;
+  height: 100%;
+  background: #0f2d55;
+}
+
+.content .gap .content {
+  width: 70%;
+  height: 100%;
+}
+
+.content .software {
+  width: 100%;
+  height: 150px;
+}
+
+.content .software .title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content .software .title .vertLines {
+  width: 6%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.content .software .title .vertLines i {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  font-size: 1em;
+  border-radius: 50%;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  background: #0f2d55;
+}
+
+.content .software .title .vertLines .vertLine {
+  width: 2px;
+  height: 30%;
+  background: #0f2d55;
+}
+
+.content .software .content {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.content .software .title .content p {
+  margin: 9px 0;
+  font-weight: 800;
+  font-size: 1.1em;
+}
+
+.content .software > ul {
+  width: 100%;
+  height: 300px;
+}
+
+.content .software > ul > li {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.content .software > ul > li .vertLines {
+  width: 6%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.content .software > ul > li .vertLines .smallElem {
+  width: 2px;
+  height: 12%;
+  background: #0f2d55;
+}
+
+.content .software > ul > li .vertLines .point {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #0f2d55;
+}
+
+.content .software > ul > li .vertLines .vertLine {
+  width: 2px;
+  height: 78%;
+  background: #0f2d55;
+}
+
+.content .software > ul > li .item {
+  width: 70%;
+  height: 40px;
+  padding: 0 20px 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.content .software > ul > li .item .categor {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.content .software > ul > li .item .categor .points {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content .software > ul > li .item .categor .points .point {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.content .software > ul > li .item .categor .points .full {
+  background: #0f2d55;
+}
+
+.content .software > ul > li .item .categor .points .blank {
+  background: #d5d6d5;
+}
+
+.content .certifications {
+  width: 100%;
+  height: 100px;
+}
+
+.content .certifications .title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content .certifications .title .vertLines {
+  width: 6%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.content .certifications .title .vertLines i {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  font-size: 1em;
+  border-radius: 50%;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  background: #0f2d55;
+}
+
+.content .certifications .title .vertLines .vertLine {
+  width: 2px;
+  height: 30%;
+  background: #0f2d55;
+}
+
+.content .certifications .content {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.content .certifications .title .content p {
+  margin: 9px 0;
+  font-weight: 800;
+  font-size: 1.1em;
+}
+
+.content .certifications > ul {
+  width: 100%;
+  height: 300px;
+}
+
+.content .certifications > ul > li {
+  width: 100%;
+  height: 25px;
+  display: flex;
+}
+
+.content .certifications > ul > li .vertLines {
+  width: 6%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.content .certifications > ul > li .vertLines .smallElem {
+  width: 2px;
+  height: 20%;
+  background: #0f2d55;
+}
+
+.content .certifications > ul > li .vertLines .point {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #0f2d55;
+}
+
+.content .certifications > ul > li .vertLines .vertLine {
+  width: 2px;
+  height: 50%;
+  background: #0f2d55;
+}
+
+.content .certifications > ul > li p span {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.content .end {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.content .end .content {
+  width: 70%;
+  height: 100%;
+}
